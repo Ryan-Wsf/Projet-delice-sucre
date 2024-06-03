@@ -199,6 +199,11 @@ h1{
     transition: all 0.3s;
 }
 
+.prix{
+    font-size: 20px;
+    font-family: var(--prata);
+}
+
 /* section3 */
 
 #section3{
@@ -211,6 +216,8 @@ h1{
     grid-template-columns: repeat(2,1fr);
     gap: 40px;
     padding: 0 15px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 #section3 article{
